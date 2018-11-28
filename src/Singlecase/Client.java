@@ -8,8 +8,8 @@ package Singlecase;
 public class Client {
 
     public static void main(String[] args) {
-        SinglecaseDemo s = SinglecaseDemo.getInstance();
-        SinglecaseDemo ss = SinglecaseDemo.getInstance();
+        SinglecaseDemo02 s = SinglecaseDemo02.getInstance();
+        SinglecaseDemo02 ss = SinglecaseDemo02.getInstance();
         System.out.println(s == ss);
     }
 }
